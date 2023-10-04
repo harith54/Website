@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARITH Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3ab898e4b3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar Section-->
+    <nav class="navbar">
+     <div class="navbar__container">
+        <a href= "/" id="navbar__logo"><i class="fa-solid fa-laptop-code"></i>  MADANI CODES</a>     <! The title at the top of the website >
+        <div class="navbar__toggle" id="mobile-menu">      <! Toggles the mobile mode for JavaScript >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>                             
+        <ul class="navbar__menu">                          <! Creates the "Home" option in the top right >                   
+            <li class="navbar__item">
+                <a href="#Home" class="navbar__links"> Home </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#Resources" class="navbar__links"> Resources </a>   <! Does the same thing with a "Tech" option but also makes an additional html page >        
+            </li>
+            <li class="navbar__item"> 
+                <a href="#AboutMe" class="navbar__links"> About Me </a>      
+            </li>
+            <li class="navbar__btn">
+                <a href="https://www.linkedin.com/in/harith-madani-799382292/" target="_blank" class="button"> <i class="fab fa-linkedin"></i> &nbsp Linkedin </a>                 <! Adds a "Sign Up" button as an option >
+            </li>
+        </ul>         
+    </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">   <!-- Text content -->
+                <h1 id = "Home">ELHARITH MADANI</h1>
+                <h2>Student at The Ohio State University</h2>
+                <p>Learn more about me.</p>
+                <button class="main__btn">
+                    <a href="#Resources">Get Started</a>
+                </button>
+            </div>
+            <div class="main_img--container">
+                <img src="images/pic3.png" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div class="services">
+        <h1 id="Resources">Check These Out!</h1>
+        <div class="services__container">
+            <a href="https://online.flippingbook.com/view/807108792/" target="_blank" class="services__card">
+                <h2>Resume</h2>
+                <p>Take a look at my resume.</p>
+                <button>View</button>
+            </a>
+            <a href="https://github.com/harith54" target="_blank" class="services__card">
+                <h2>Github</h2>
+                <p>Check out some of my projects!</p>
+                <button>View</button>
+            </a>
+        </div>
+    </div>
+    <!--Footer Section-->
+     <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                <div class="footer__aboutme">
+                 <h1 id = "AboutMe">About Me</h1>
+                 <p>Hi, I'm Elharith Madani, a Computer Science and Engineering student at The Ohio State University. I have a passion for coding and aspire to graduate with a Bachelor's Degree in Computer Science and Engineering. Growing up, I moved around the suburbs in the city of Columbus, and my high school journey took me from Westerville North High School during my freshman to junior years to Gahanna Lincoln High School for my senior year.
+
+                    My journey is deeply rooted in my family's pursuit of a better life. My dad immigrated to the United States from Sudan when he was just 17, seeking opportunities and a brighter future. My non-immediate family still resides in Sudan, and I aspire to help them achieve a better situation.</p>
+                </div>
+                <div class="footer__courses">
+                  <h1>Courses and Programming Languages</h1>
+                  <p>In pursuit of my Bachelor's Degree in Computer Science and Engineering, I've taken a range of courses, including:
+
+                    Intro to Java Programming
+                    Calculus 1 and 2
+                    Fundamentals of Engineering
+                    I'm dedicated to becoming proficient in various programming languages, including Java, HTML, CSS, and I'm also delving into Python and JavaScript. My goal is to combine my academic knowledge with practical coding skills to excel in the tech industry.</p>
+                </div>
+                   <div class="footer__mission"> 
+                   <h1>My Mission</h1>
+                   <p>I'm currently working towards my goal of working at a big tech company as a Software Engineer. My dream is to retire my parents one day by securing a high-income job and to support my family in Sudan. Ultimately, I aim to provide a brighter future for my family and to support my loved ones in Sudan. By working hard and striving for excellence in my field, I hope to achieve these goals and contribute positively to the world of technology.
+
+
+
+
+                   </p>
+                   </div>
+
+                </div> 
+            </div>
+        </div>  
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fa-solid fa-laptop-code"></i>MADANI CODES</a>
+                </div>
+                <p class="website__rights">MADANICODES 2023. All rights reserved</p>
+                <div class="social__icons">
+                    
+                    <a href="https://www.linkedin.com/in/harith-madani-799382292/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://app.joinhandshake.com/stu/users/53103999" class="social__icon--link" target="_blank">
+                        <i class="fab fa-handshake"></i>
+                    <a href="https://github.com/harith54" class="social__icon--link" target="_blank">
+                         <i class="fab fa-github"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                   </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
