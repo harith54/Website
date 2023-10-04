@@ -10,7 +10,7 @@ Features
 - Optimized performance through minified code and compressed images
 - Running the Site
 
-The site is deployed and can be viewed live at [WEBSITE URL].
+The site is deployed and can be viewed live at [https://harith54.github.io/Website/].
 
 Alternatively, you can run it locally by:
 
