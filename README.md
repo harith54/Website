@@ -12,10 +12,6 @@ Features
 
 The site is deployed and can be viewed live at [].
 
-Alternatively, you can run it locally by:
-
-1. Cloning the repo
-2. Opening index.html in your browser
 
 Resources
 HTML
