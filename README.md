@@ -10,13 +10,10 @@ Features
 - Optimized performance through minified code and compressed images
 - Running the Site
 
-The site is deployed and can be viewed live at [].
+The site is deployed and can be viewed live at [https://harith54.github.io/Website/].
 
 
-Resources
-HTML
-CSS
-JavaScript
-Google Fonts
-Font Awesome Icons
+Resources:
+HTML, CSS, JavaScript, Google Fonts, Font Awesome Icons
+
 Let me know if you have any other questions!# Website
